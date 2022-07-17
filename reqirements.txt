@@ -1,0 +1,6 @@
+dnspython
+mysql
+mysqlclient
+psycopg[binary]
+pymongo
+tzdata
