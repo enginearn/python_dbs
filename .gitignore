@@ -1,4 +1,9 @@
-config
+*config
+config.*
+*.ini
+*.cnf
+*.config
+sqlite/
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

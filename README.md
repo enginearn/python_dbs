@@ -121,3 +121,54 @@ def postgres_connect():
 ```
 
 </details>
+
+## Basic CRUD Operations
+
+### MySQL
+
+### PostgreSQL
+
+### MongoDB
+
+### sqlite3
+
+<details>
+<summary>create database</summary>
+
+``` sqlite3
+sqlite3 sqlite/test1.db # この時点ではDBが存在しない
+SQLite version 3.39.2 2022-07-21 15:24:47
+Enter ".help" for usage hints.
+sqlite>
+```
+
+</details>
+
+
+<details>
+<summary>create table</summary>
+
+``` sqlite3
+sqlite> create table test (id integer primary key, date text); # ここでDBが作成される
+```
+
+</details>
+
+<details>
+<summary>insert into</summary>
+
+``` sqlite3
+sqlite> insert into  test(date) values("1970-01-01 00:00");
+```
+
+</details>
+
+<details>
+<summary>select * from TABLE_NAME</summary>
+
+``` sqlite3
+sqlite> select * from test;
+1|1970-01-01 00:00
+```
+
+</details>
